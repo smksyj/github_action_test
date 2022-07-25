@@ -14,4 +14,4 @@ jobs:
   use-env:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "ENV_VAR"
+      - run: echo "$ENV_VAR"
