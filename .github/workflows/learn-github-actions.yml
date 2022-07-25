@@ -13,5 +13,7 @@ jobs:
 
   use-env:
     runs-on: ubuntu-latest
+    env:
+      ENV_VAR: ${{ secrets.ENV_VAR }}
     steps:
       - run: echo "$ENV_VAR"
