@@ -17,4 +17,4 @@ jobs:
       - shell: bash
         env:
           ENV_VAR: ${{ secrets.ENV_VAR }}
-        run: echo "$ENV_VAR"
+        run: echo "secret - $ENV_VAR"
