@@ -28,4 +28,5 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: smksyj/github-action-test:latest
+          # tags: smksyj/github-action-test:latest
+          tags: smksyj/github-action-test:${{github.sha}}
